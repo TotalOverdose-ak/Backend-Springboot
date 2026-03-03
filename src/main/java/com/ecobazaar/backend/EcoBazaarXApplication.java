@@ -27,10 +27,9 @@ public class EcoBazaarXApplication {
         SpringApplication.run(EcoBazaarXApplication.class, args);
         String port = System.getenv("PORT");
         if (port == null) port = "10000";
-        System.out.println("🚀 EcoBazaarX Backend Started Successfully!");
-        System.out.println("🌐 Server running on port: " + port);
-        System.out.println("💚 Health check: /healthz");
-        System.out.println("H2 Console: http://localhost:8080/api/h2-console");
+        System.out.println(" EcoBazaarX Backend Started Successfully!");
+        System.out.println(" akash port: " + port);
+
     }
 }
 
